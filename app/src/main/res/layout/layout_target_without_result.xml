@@ -58,7 +58,6 @@
             android:gravity="center_vertical"
             android:paddingStart="16dp"
             android:text="> 맞춤 메이크업 제품 추천 보러가기"
-            android:onClick="goToTargetResult"
             android:background="@drawable/rounded_orange_gradient"
             android:textSize="14sp" />
 

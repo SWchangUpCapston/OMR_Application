@@ -19,8 +19,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
-        android:paddingVertical="8dp"
-        android:gravity="center_horizontal">
+        android:paddingVertical="8dp">
 
         <CheckBox
             android:id="@+id/select_all_checkbox"
@@ -121,8 +120,7 @@
                     android:layout_height="wrap_content"
                     android:text="18000원"
                     android:textColor="#808080"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -295,5 +293,11 @@
             android:text="결제하기"
             android:textColor="@android:color/white" />
     </LinearLayout>
-
+    <!-- 하단 네비게이션 바 -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/activity_bottom_panel" />
 </LinearLayout>

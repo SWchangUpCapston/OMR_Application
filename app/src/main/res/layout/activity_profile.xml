@@ -10,7 +10,7 @@
     <View
         android:id="@+id/gradient_background"
         android:layout_width="match_parent"
-        android:layout_height="400dp"/>
+        android:layout_height="400dp"></View>
 
     <!-- 전체 콘텐츠 스크롤 -->
     <ScrollView
@@ -281,6 +281,9 @@
                 android:background="#FFFFFF"
                 android:layout_marginTop="8dp"
                 android:padding="18dp">
+
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
 
             </LinearLayout>
 
