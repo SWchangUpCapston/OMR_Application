@@ -1,22 +1,17 @@
 package com.example.omrapplication;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class TargetActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_target_result); // activity_home.xml 연결
     }
-    // xml에서 onClick으로 연결된 메서드
-    public void goToHome(View view) {
-        Intent intent = new Intent(this, HomeActivity.class);
-        startActivity(intent);
-    }
+
     public void goToFeed(MenuItem item) {
         Intent intent = new Intent(this, FeedActivity.class);
         startActivity(intent);

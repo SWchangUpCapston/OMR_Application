@@ -2,21 +2,26 @@
     <item
         android:id="@+id/nav_feed"
         android:icon="@drawable/ic_feed"
+        android:onClick="goToFeed"
         android:title="Feed"/>
     <item
         android:id="@+id/nav_target"
         android:icon="@drawable/ic_star"
+        android:onClick="goToTarget"
         android:title="Target"/>
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
+        android:onClick="goToDefault"
         android:title="Home"/>
     <item
         android:id="@+id/nav_cart"
         android:icon="@drawable/ic_cart"
+        android:onClick="goToCart"
         android:title="Cart"/>
     <item
         android:id="@+id/nav_profile"
         android:icon="@drawable/ic_person"
+        android:onClick="goToProfile"
         android:title="MyPage"/>
 </menu>
