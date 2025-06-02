@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <application android:theme="@style/Theme.OMRApplication">
+        <activity android:name=".CameraActivity" android:exported="true"/>
+        <activity android:name=".SurveyActivity" android:exported="true"/>
+        <activity android:name=".ChatbotActivity" android:exported="true"/>
         <activity android:name=".HomeActivity" android:exported="true"/>
         <activity android:name=".FeedActivity" android:exported="true"/>
         <activity android:name=".CartActivity" android:exported="true"/>

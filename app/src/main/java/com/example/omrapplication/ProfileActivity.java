@@ -3,6 +3,7 @@ package com.example.omrapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +18,10 @@ public class ProfileActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void goToTarget(MenuItem item) {
+        Intent intent = new Intent(this, TargetActivity.class);
+        startActivity(intent);
+    }
+    public void goToTarget(View view) {
         Intent intent = new Intent(this, TargetActivity.class);
         startActivity(intent);
     }
