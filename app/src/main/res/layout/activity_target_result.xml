@@ -121,14 +121,13 @@
                         android:background="#D3D3D3"
                         android:layout_gravity="center">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="상품\n이미지"
-                            android:textSize="12sp"
-                            android:textAlignment="center" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product1"
+                            android:scaleType="centerCrop" />
                     </FrameLayout>
+
 
                     <View android:layout_width="12dp" android:layout_height="match_parent" />
 
@@ -148,7 +147,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="상품명~~~~~ 또는 영상명"
+                            android:text="100% 천연 추출물 에센스"
                             android:textSize="14sp"
                             android:textStyle="bold" />
 
@@ -185,13 +184,11 @@
                         android:background="#D3D3D3"
                         android:layout_gravity="center">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="상품\n이미지"
-                            android:textSize="12sp"
-                            android:textAlignment="center" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="62dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/product2" />
                     </FrameLayout>
 
                     <View android:layout_width="12dp" android:layout_height="match_parent" />
@@ -212,7 +209,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="상품명~~~~~ 또는 영상명"
+                            android:text="에메랄드 미네랄 토너"
                             android:textSize="14sp"
                             android:textStyle="bold" />
 
@@ -249,13 +246,11 @@
                         android:background="#D3D3D3"
                         android:layout_gravity="center">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="상품\n이미지"
-                            android:textSize="12sp"
-                            android:textAlignment="center" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product3"
+                            android:scaleType="centerCrop" />
                     </FrameLayout>
 
                     <View android:layout_width="12dp" android:layout_height="match_parent" />
@@ -276,7 +271,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="상품명~~~~~ 또는 영상명"
+                            android:text="크림 타입 색조 블러셔"
                             android:textSize="14sp"
                             android:textStyle="bold" />
 
@@ -313,13 +308,11 @@
                         android:background="#D3D3D3"
                         android:layout_gravity="center">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="상품\n이미지"
-                            android:textSize="12sp"
-                            android:textAlignment="center" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product4"
+                            android:scaleType="centerCrop" />
                     </FrameLayout>
 
                     <View android:layout_width="12dp" android:layout_height="match_parent" />
@@ -340,7 +333,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="상품명~~~~~ 또는 영상명"
+                            android:text="수분 가득 에센셜 세럼"
                             android:textSize="14sp"
                             android:textStyle="bold" />
 

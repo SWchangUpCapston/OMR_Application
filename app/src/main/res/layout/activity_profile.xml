@@ -41,7 +41,7 @@
                     android:textStyle="bold" />
 
                 <ImageView
-                    android:layout_width="46dp"
+                    android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:contentDescription="알림"
                     android:src="@android:drawable/ic_dialog_info" />
@@ -65,7 +65,7 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/sym_def_app_icon"
+                        android:src="@drawable/player1"
                         android:contentDescription="Profile" />
 
                     <TextView

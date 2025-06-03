@@ -8,7 +8,7 @@
     <!-- 상단 헤더 -->
     <TextView
         android:id="@+id/chatbotHeader"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/chat_header_background"
         android:gravity="center"
@@ -17,24 +17,107 @@
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- 채팅 메시지 리스트 -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/chatRecyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:contentDescription="채팅 메시지 리스트"
-        app:layout_constraintTop_toBottomOf="@id/chatbotHeader"
-        app:layout_constraintBottom_toTopOf="@+id/inputLayout"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- 채팅 메시지 컨테이너 -->
+
     <!-- 메시지 입력 영역 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chatMessageContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/inputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chatbotHeader"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- 첫 번째 메시지 -->
+        <FrameLayout
+            android:id="@+id/message1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="138dp"
+                android:contentDescription="상대방 메시지 이미지"
+                android:src="@drawable/chatmessage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxWidth="180dp"
+                android:padding="16dp"
+                android:text="무엇을 도와드릴까요?"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- 두 번째 메시지 -->
+
+        <!-- 세 번째 메시지 -->
+
+        <!-- 로딩바 -->
+
+        <ImageView
+            android:id="@+id/botMessageImage"
+            android:layout_width="208dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="상대방 메시지 이미지"
+            android:src="@drawable/chatmessage2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/message1" />
+
+        <TextView
+            android:id="@+id/botMessageText"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:maxWidth="180dp"
+            android:padding="16dp"
+            android:text="내 피부 타입에 맞는 아이크림 추천해줘"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/botMessageImage"
+            app:layout_constraintTop_toTopOf="@id/botMessageImage" />
+
+        <!-- 로딩바 (위에 겹치도록) -->
+        <ImageView
+            android:id="@+id/botMessageImage5"
+            android:layout_width="216dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="상대방 메시지 이미지"
+            android:src="@drawable/chatmessage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/botMessageImage" />
+
+        <ImageView
+            android:id="@+id/botMessageImage4"
+            android:layout_width="56dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/loadingbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/botMessageImage5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <LinearLayout
         android:id="@+id/inputLayout"
         android:layout_width="0dp"
@@ -62,4 +145,5 @@
             android:contentDescription="메시지 전송"
             android:background="?attr/selectableItemBackgroundBorderless"/>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

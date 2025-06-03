@@ -70,7 +70,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                    android:src="@drawable/player1" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="홍길동"
+                        android:text="송*원"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
@@ -152,7 +152,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                    android:src="@drawable/player2" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -161,14 +161,14 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="홍길동"
+                        android:text="길*빈"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="DSNW / 봄 웜 브라이트"
+                        android:text="DSNW / 겨울 쿨톤"
                         android:textSize="12sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -176,14 +176,14 @@
             </LinearLayout>
 
             <TextView
-                android:text="코랄 핑크와 딥 오렌지 립제품을 선물 받았는데, 퍼컬에 안 맞아서 고민입니다..."
+                android:text="건성 피부를 위한 선크림 추천해주세요"
                 android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp" />
 
             <TextView
-                android:text="#봄웜브라이트 #봄메이크업 #오렌지메이크업"
+                android:text="#건성 #남자피부 #선크림"
                 android:layout_marginTop="4dp"
                 android:textSize="12sp"
                 android:textColor="#777777"
@@ -233,7 +233,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                    android:src="@drawable/player3" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -242,14 +242,14 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="홍길동"
+                        android:text="이*민"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="DSNW / 봄 웜 브라이트"
+                        android:text="DSNW / 여름 쿨 브라이트"
                         android:textSize="12sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -257,14 +257,14 @@
             </LinearLayout>
 
             <TextView
-                android:text="코랄 핑크와 딥 오렌지 립제품을 선물 받았는데, 퍼컬에 안 맞아서 고민입니다..."
+                android:text="21호 민감성 피부 팩트 정착하려 합니다."
                 android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp" />
 
             <TextView
-                android:text="#봄웜브라이트 #봄메이크업 #오렌지메이크업"
+                android:text="#여름쿨브라이트 #여름메이크업 #복숭아메이크업"
                 android:layout_marginTop="4dp"
                 android:textSize="12sp"
                 android:textColor="#777777"
@@ -314,7 +314,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                    android:src="@drawable/player4" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -323,14 +323,14 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="홍길동"
+                        android:text="강*희"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="DSNW / 봄 웜 브라이트"
+                        android:text="DSNW / 봄 쿨 브라이트"
                         android:textSize="12sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -338,14 +338,14 @@
             </LinearLayout>
 
             <TextView
-                android:text="코랄 핑크와 딥 오렌지 립제품을 선물 받았는데, 퍼컬에 안 맞아서 고민입니다..."
+                android:text="피부 트러블에 좋은 스킨케어 제품 있나요?"
                 android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp" />
 
             <TextView
-                android:text="#봄웜브라이트 #봄메이크업 #오렌지메이크업"
+                android:text="#봄쿨브라이트 #봄메이크업 #피부고민"
                 android:layout_marginTop="4dp"
                 android:textSize="12sp"
                 android:textColor="#777777"
@@ -394,7 +394,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                    android:src="@drawable/player5" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -403,7 +403,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="홍길동"
+                        android:text="조*원"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
@@ -418,14 +418,14 @@
             </LinearLayout>
 
             <TextView
-                android:text="코랄 핑크와 딥 오렌지 립제품을 선물 받았는데, 퍼컬에 안 맞아서 고민입니다..."
+                android:text="고정력 강한 헤어 스프레이 있나요?"
                 android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp" />
 
             <TextView
-                android:text="#봄웜브라이트 #봄메이크업 #오렌지메이크업"
+                android:text="#헤어 #스프레이"
                 android:layout_marginTop="4dp"
                 android:textSize="12sp"
                 android:textColor="#777777"
